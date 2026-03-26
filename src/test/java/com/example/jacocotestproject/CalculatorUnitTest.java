@@ -24,4 +24,10 @@ class CalculatorUnitTest {
         assertEquals(0.5, calculator.divide(1, 2));
         assertEquals(-1, calculator.divide(2, 0));
     }
+
+    @Test
+    void subtract() {
+        assertEquals(0, calculator.subtract(2, 2));
+        assertEquals(-2, calculator.subtract(-1, 1));
+    }
 }
