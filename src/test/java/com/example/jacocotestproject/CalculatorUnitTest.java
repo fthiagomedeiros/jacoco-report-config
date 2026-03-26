@@ -17,4 +17,11 @@ class CalculatorUnitTest {
     void multiply() {
         assertEquals(6, calculator.multiply(3, 2));
     }
+
+    @Test
+    void divide() {
+        assertEquals(1, calculator.divide(2, 2));
+        assertEquals(0.5, calculator.divide(1, 2));
+        assertEquals(-1, calculator.divide(2, 0));
+    }
 }

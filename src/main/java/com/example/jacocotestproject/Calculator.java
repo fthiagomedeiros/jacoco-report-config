@@ -14,4 +14,11 @@ public class Calculator {
     public long subtract(long a, long b) {
         return a - b;
     }
+
+    public double divide(double a, double b) {
+        if (b == 0) {
+            return -1;
+        }
+        return a / b;
+    }
 }
