@@ -1,6 +1,5 @@
 package com.example.jacocotestproject;
 
-import org.springframework.stereotype.Component;
 
 public class Calculator {
 
@@ -10,5 +9,9 @@ public class Calculator {
 
     public double multiply(double a, double b) {
         return a * b;
+    }
+
+    public long subtract(long a, long b) {
+        return a - b;
     }
 }
